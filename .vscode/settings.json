@@ -35,5 +35,9 @@
   "vetur.validation.template": true,
   "vueStyle.formatOnSave": true,
   "vueStyle.ignoreFilesOnSave": [],
-  "vueStyle.preset": {}
+  "vueStyle.preset": {},
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true
 }

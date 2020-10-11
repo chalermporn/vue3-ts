@@ -1,31 +1,32 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+
+    <Nav class="mb-6" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" class="text-center"/> -->
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
-  <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  color: #2c3e50;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
+<script lang="ts">
+import { Options, Vue } from 'vue-class-component'
+import HelloWorld from './components/HelloWorld.vue'
+import Nav from './components/Nav.vue'
 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    color: #2c3e50;
-    font-weight: bold;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+@Options({
+  name: 'App',
+  components: {
+    HelloWorld,
+    Nav
   }
+})
+
+export default class App extends Vue {
+//
 }
+</script>
+
+<style lang="scss">
+//
 </style>
