@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31e84e15fd903c772e46",
-    "url": "/vue3-ts/assets/css/app.67447e21.css"
+    "revision": "5ccc8a5c21a178511f50",
+    "url": "/vue3-ts/assets/css/app.825836b9.css"
   },
   {
     "revision": "82b9c7a5a3f405032b1db71a25f67021",
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-ts/assets/js/about.6e6ba547.js"
   },
   {
-    "revision": "31e84e15fd903c772e46",
+    "revision": "5ccc8a5c21a178511f50",
     "url": "/vue3-ts/assets/js/app.26ddf8c1.js"
   },
   {
@@ -24,7 +24,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-ts/assets/js/home.f9894071.js"
   },
   {
-    "revision": "7181f41bd5c2f957c226023786903d82",
+    "revision": "d8be9881c1cf8d76e7df9fed28621bc2",
+    "url": "/vue3-ts/img/Capture.PNG"
+  },
+  {
+    "revision": "ade9194adb6c2c5fd1e74e4dccbaa1b4",
     "url": "/vue3-ts/index.html"
   },
   {
