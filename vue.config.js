@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/vue3-ts/',
   lintOnSave: true,
   productionSourceMap: false,
   assetsDir: 'assets',
