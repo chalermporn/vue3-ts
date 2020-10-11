@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-ts/img/Capture.PNG"
   },
   {
-    "revision": "ade9194adb6c2c5fd1e74e4dccbaa1b4",
+    "revision": "77e584ac6e05f72d05ba50904f99e206",
     "url": "/vue3-ts/index.html"
   },
   {
