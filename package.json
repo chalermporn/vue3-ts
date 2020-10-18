@@ -8,7 +8,9 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "deploy": "git add dist && git commit -m \"Initial dist subtree commit\" && git subtree push --prefix dist origin gh-pages"
+    "deploy": "git add dist && git commit -m \"Initial dist subtree commit\" && git subtree push --prefix dist origin gh-pages",
+    "kubectl": "kubectl apply -f  frontend.yaml",
+    "kubectl:del": "kubectl delete -n vue-app service frontend && kubectl delete -n vue-app deployment frontend"
   },
   "dependencies": {
     "core-js": "^3.6.5",
